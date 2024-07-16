@@ -1,0 +1,76 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("/assets/img/waves.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    text-align: center;
+    padding: 40px;
+    width: 80%;
+    max-width: 800px;
+}
+.logo {
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 150px;
+}
+.button {
+    padding: 15px;
+    background-color: #16396b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.button:hover {
+    background-color: #002244;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+input, textarea {
+    background-color: #fcfcfc;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    height: 400px;
+}
+.message {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+.message.success {
+    background-color: #f6fff0;
+    color: #5aa013;
+    border: 1px solid #d3ffa8;
+}
+.message.failure {
+    background-color: #fff0f0;
+    color: #d06b6b;
+    border: 1px solid #ffc0c0;
+}

@@ -1,0 +1,58 @@
+
+h3 {
+    margin-top: 40px;
+    text-align: left;
+    color: #003366;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    color: #003366;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcfcfc;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+}
+li p {
+    margin: 0;
+    flex-grow: 1;
+    padding-left: 10px;
+}
+a {
+    display: block;
+    color: #003366;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+.article-info {
+    display: flex;
+    align-items: flex-end;
+}
+.article-buttons {
+    display: flex;
+    align-items: center;
+}
+p {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+.form-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
