@@ -97,6 +97,9 @@ A screenshot of the application:
 
 ![image](https://github.com/user-attachments/assets/beed2f5a-181c-47bf-be57-0748c1818b93)
 
+![image](https://github.com/user-attachments/assets/db01e24c-d060-4691-93b2-44012fce5089)
+
+
 
 ---
 
