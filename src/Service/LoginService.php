@@ -3,9 +3,12 @@
 namespace App\Service;
 
 use App\Database;
+use App\Helpers\FlashMessage;
 
 class LoginService
 {
+    const WRONG_LOGIN_DATA_MESSAGE = 'Wrong login data!';
+
     private $db;
 
     public function __construct() {
@@ -25,8 +28,7 @@ class LoginService
             $_SESSION['username'] = $user['username'];
             return true;
         } else {
-            $_SESSION['message']['content'] = 'Wrong login data!';
-            $_SESSION['message']['type'] = 'failure';
+            FlashMessage::set(self::WRONG_LOGIN_DATA_MESSAGE, false);
             return false;
         }
     }
