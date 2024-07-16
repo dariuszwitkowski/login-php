@@ -95,8 +95,8 @@ dariusz.witkowski98@gmail.com
 ### Example
 A screenshot of the application:
 
-![App Screenshot](![image](https://github.com/user-attachments/assets/f0ef9efa-f736-468d-b42c-50f0ea94eef9))
-![App Screenshot](![image](https://github.com/user-attachments/assets/f73916da-15d7-4213-a804-c4b0ee5f4bd4))
+![image](https://github.com/user-attachments/assets/beed2f5a-181c-47bf-be57-0748c1818b93)
+
 
 ---
 
