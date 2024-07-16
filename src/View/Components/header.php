@@ -1,7 +1,9 @@
 <?php
+
 use App\Helpers\FlashMessage;
 
 $message = FlashMessage::get();
+
 ?>
 
 <div class="logo">

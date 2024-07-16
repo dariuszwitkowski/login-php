@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 $config = require __DIR__ . '/config/database.php';
 
 try {
